@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Job Application Tracker</h1>
+      <p>Track all your job & internship applications in one place</p>
+    </header>
+
+    <main class="container">
+      <section class="form-section">
+        <h2>Add New Application</h2>
+
+        <form id="jobForm">
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" required />
+          </div>
+
+          <div class="form-group">
+            <label for="role">Job Role</label>
+            <input type="text" id="role" />
+          </div>
+
+          <div class="form-group">
+            <label for="date">Application Date</label>
+            <input type="date" id="date" />
+          </div>
+
+          <div class="form-group">
+            <label for="status">Status</label>
+            <select id="status">
+              <option value="" disabled selected>Choose status</option>
+              <option value="Applied">Applied</option>
+              <option value="Interview">Interview</option>
+              <option value="Offer">Offer</option>
+              <option value="Rejected">Rejected</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="link">Application Link</label>
+            <input type="url" id="link" placeholder="https://example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Notes</label>
+            <textarea id="notes" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Add Application</button>
+        </form>
+      </section>
+
+      <section class="controls-section">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by company or role..."
+        />
+
+        <select id="filterStatus">
+          <option value="All">All Status</option>
+          <option value="Applied">Applied</option>
+          <option value="Interview">Interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+        </select>
+      </section>
+
+      <section class="jobs-section">
+        <h2>Your Applications</h2>
+
+        <div id="jobList" class="job-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

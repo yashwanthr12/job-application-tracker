@@ -52,13 +52,14 @@ This structure ensures clean, maintainable, and scalable frontend code.
 
 ## Folder Structure
 
+```text
 job-application-tracker/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 
 ---
 
@@ -84,7 +85,7 @@ No additional setup or dependencies are required.
 
 ## Author
 
-**Yashwanth**
+**Yashwanth R**
 
 ---
 

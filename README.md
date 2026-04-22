@@ -73,6 +73,20 @@ No additional setup or dependencies are required.
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <b>Dashboard</b><br><br>
+  <img src="https://raw.githubusercontent.com/yashwanthr12/job-application-tracker/main/screenshots/dashboard.png" width="800"/>
+</p>
+
+<p align="center">
+  <b>Application View</b><br><br>
+  <img src="https://raw.githubusercontent.com/yashwanthr12/job-application-tracker/main/screenshots/application.png" width="800"/>
+</p>
+
+---
+
 ## What I Learned
 
 - Implementing CRUD operations using Vanilla JavaScript  

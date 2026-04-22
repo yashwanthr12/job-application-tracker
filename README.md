@@ -82,7 +82,7 @@ No additional setup or dependencies are required.
 
 <p align="center">
   <b>Application View</b><br><br>
-  <img src="https://raw.githubusercontent.com/yashwanthr12/job-application-tracker/main/screenshots/application.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/yashwanthr12/job-application-tracker/main/screenshots/applications.png" width="800"/>
 </p>
 
 ---
